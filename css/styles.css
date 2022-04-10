@@ -54,15 +54,12 @@ img {
 
 /* header */
 
-
-
-
 .main-nav {
     align-items: center;
     display: flex;
 }
 
-.header-section {
+.header {
     border: 1px solid var(--header-border-color);
 }
 
@@ -85,7 +82,6 @@ img {
     font-size: 26px;
     line-height: 1.19px;
 }
-
 /* site navigation */
 .site-nav {
     display: flex;
@@ -288,7 +284,7 @@ img {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 
 }
 
@@ -298,15 +294,15 @@ img {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .section-team .crew-description {
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .crew:not(:last-child) {
@@ -315,8 +311,7 @@ img {
 
 /* footer */
 .underground {
-    padding-top: 60px;
-    padding-bottom: 60px;
+   padding: 60px 0;
 }
 
 .logo-footer {
@@ -385,11 +380,7 @@ img {
 .underground {
     background-color: var(--hero-bgc);
 }
-
 /* portfolio */
-
-
-
 
 .button-list .button+.button {
     margin-left: 8px;
@@ -412,10 +403,7 @@ img {
     padding-left: 22px;
     padding-right: 22px;
     letter-spacing: 0.03em;
-
     border: none;
-
-
 }
 
 .button-list {
@@ -424,16 +412,12 @@ img {
     display: flex;
     padding-left: 0;
     margin-bottom: 50px;
-
-
 }
-
 .button-list .button-title:hover,
 .button-list .button-title:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
 }
-
 /* examples */
 
 .example-title {
@@ -456,12 +440,9 @@ img {
     list-style: none;
     /* border: 1px solid #EEEEEE; */
 }
-
 .card-link {
     text-decoration: none;
-
 }
-
 .card-list {
     display: flex;
     flex-wrap: wrap;
@@ -469,15 +450,12 @@ img {
     margin-top: -30px;
 
 }
-
-
 .card {
     flex-basis: calc((100% - 90px) / 3);
     margin-left: 30px;
     margin-top: 30px;
 
 }
-
 .card-block {
     padding: 20px 24px;
     border-left: 1px solid #EEEEEE;
